@@ -2810,3 +2810,97 @@ select.cc-input {
     transition-duration: .01ms !important;
   }
 }
+.admin-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 18px 0;
+  padding: 14px 16px;
+  border: 1px solid #b7e4cf;
+  border-radius: 14px;
+  background: #effaf4;
+  color: #176847;
+  font-size: 14px;
+}
+.admin-notice span { font-weight: 800; }
+.admin-complaints-panel { margin-top: 28px; overflow: hidden; }
+.admin-list-heading { align-items: flex-start; gap: 18px; }
+.admin-list-heading p { margin-top: 8px; color: #718078; }
+.admin-result-count {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #e8f7ef;
+  color: #087f5b;
+  font-size: 12px;
+  font-weight: 750;
+}
+.admin-filters {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.5fr) minmax(150px, .8fr) minmax(150px, .8fr);
+  gap: 12px;
+  margin: 22px 0;
+}
+.admin-search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  padding: 0 13px;
+  border: 1px solid #dce8e1;
+  border-radius: 12px;
+  background: #fff;
+  color: #718078;
+}
+.admin-search span { font-size: 23px; }
+.admin-search input {
+  width: 100%;
+  min-width: 0;
+  padding: 13px 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #193c30;
+  font: inherit;
+}
+.admin-filters select,
+.admin-status-select {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 11px;
+  border: 1px solid #dce8e1;
+  border-radius: 12px;
+  background: #fff;
+  color: #234b3b;
+  font: inherit;
+}
+.admin-table-wrap { width: 100%; overflow-x: auto; }
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+.admin-table th {
+  padding: 13px 12px;
+  background: #f3faf6;
+  color: #537265;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.admin-table td {
+  padding: 16px 12px;
+  border-bottom: 1px solid #eaf1ed;
+  color: #38594a;
+  vertical-align: top;
+  min-width: 100px;
+}
+.admin-table tbody tr:hover { background: #fbfefc; }
+.admin-table td strong {
+  display: block;
+  color: #183d2e;
+  font-size: 13px;
+}
